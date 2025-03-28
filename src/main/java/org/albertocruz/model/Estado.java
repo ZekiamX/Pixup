@@ -1,17 +1,15 @@
-package org.gerdoc.model;
+package org.albertocruz.model;
 
-public class Municipio {
+public class Estado {
     private Integer id;
     private String nombre;
-    private Estado estado;
 
-    public Municipio() {
+    public Estado() {
     }
 
-    public Municipio(Integer id, String nombre, Estado estado) {
+    public Estado(Integer id, String nombre) {
         this.id = id;
         this.nombre = nombre;
-        this.estado = estado;
     }
 
     public Integer getId() {
@@ -28,13 +26,5 @@ public class Municipio {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-
-    public Estado getEstado() {
-        return estado;
-    }
-
-    public void setEstado(Estado estado) {
-        this.estado = estado;
     }
 }
