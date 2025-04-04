@@ -1,6 +1,6 @@
-package org.gerdoc.pixup.gui.ventana;
+package org.albertoangelesdoc.pixup.gui.ventana;
 
-import org.gerdoc.pixup.negocio.Ejecutable;
+import org.albertoangelesdoc.pixup.negocio.Ejecutable;
 
 public class Ventana implements Ejecutable
 {

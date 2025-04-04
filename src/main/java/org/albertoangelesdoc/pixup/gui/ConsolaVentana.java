@@ -1,8 +1,8 @@
-package org.gerdoc.pixup.gui;
+package org.albertoangelesdoc.pixup.gui;
 
-import org.gerdoc.pixup.gui.consola.Consola;
-import org.gerdoc.pixup.gui.ventana.Ventana;
-import org.gerdoc.pixup.negocio.Ejecutable;
+import org.albertoangelesdoc.pixup.gui.consola.Consola;
+import org.albertoangelesdoc.pixup.gui.ventana.Ventana;
+import org.albertoangelesdoc.pixup.negocio.Ejecutable;
 
 public class ConsolaVentana  extends LecturaAccion
 {

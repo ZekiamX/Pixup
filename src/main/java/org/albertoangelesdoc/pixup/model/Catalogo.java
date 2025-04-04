@@ -1,4 +1,4 @@
-package org.gerdoc.pixup.model;
+package org.albertoangelesdoc.pixup.model;
 
 import java.io.Serializable;
 

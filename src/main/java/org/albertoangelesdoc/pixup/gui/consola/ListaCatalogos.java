@@ -1,7 +1,7 @@
-package org.gerdoc.pixup.gui.consola;
+package org.albertoangelesdoc.pixup.gui.consola;
 
-import org.gerdoc.pixup.gui.LecturaAccion;
-import org.gerdoc.pixup.negocio.Ejecutable;
+import org.albertoangelesdoc.pixup.gui.LecturaAccion;
+import org.albertoangelesdoc.pixup.negocio.Ejecutable;
 
 public class ListaCatalogos extends LecturaAccion
 {
@@ -26,7 +26,8 @@ public class ListaCatalogos extends LecturaAccion
         System.out.println( "2.-Municipio");
         System.out.println( "3.-Colonia");
         System.out.println( "4.-Artista");
-        System.out.println( "5.-Salir");
+        System.out.println( "5.-Disquera");
+        System.out.println( "6.-Salir");
     }
     @Override
     public int valorMinMenu()
@@ -37,7 +38,7 @@ public class ListaCatalogos extends LecturaAccion
     @Override
     public int valorMaxMenu()
     {
-        return 5;
+        return 6;
     }
 
     @Override

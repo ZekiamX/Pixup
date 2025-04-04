@@ -1,7 +1,9 @@
-package org.gerdoc.pixup.gui.consola;
+package org.albertoangelesdoc.pixup.gui.consola;
 
-import org.gerdoc.pixup.model.Artista;
-import org.gerdoc.pixup.util.ReadUtil;
+import org.albertoangelesdoc.pixup.model.Artista;
+import org.albertoangelesdoc.pixup.util.ReadUtil;
+
+import java.io.File;
 
 public class ArtistaCatalogo extends Catalogos<Artista>{
 
@@ -39,5 +41,15 @@ public class ArtistaCatalogo extends Catalogos<Artista>{
         System.out.println("El nombre del artista es " + artista.getArtista());
         System.out.println("Escribe el nuevo nombre del artista ");
         artista.setArtista(ReadUtil.read());
+    }
+
+    @Override
+    public File getFile() {
+        return new File("Artista.List");
+    }
+
+    @Override
+    protected String getCatalogoName() {
+        return "";
     }
 }

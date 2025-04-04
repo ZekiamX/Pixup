@@ -1,4 +1,4 @@
-package org.gerdoc.pixup.model;
+package org.albertoangelesdoc.pixup.model;
 
 public class Artista extends Catalogo{
     private String artista;

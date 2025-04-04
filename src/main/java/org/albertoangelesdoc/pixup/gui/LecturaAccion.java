@@ -1,7 +1,7 @@
-package org.gerdoc.pixup.gui;
+package org.albertoangelesdoc.pixup.gui;
 
-import org.gerdoc.pixup.negocio.Ejecutable;
-import org.gerdoc.pixup.util.ReadUtil;
+import org.albertoangelesdoc.pixup.negocio.Ejecutable;
+import org.albertoangelesdoc.pixup.util.ReadUtil;
 
 public abstract class LecturaAccion implements Ejecutable
 {

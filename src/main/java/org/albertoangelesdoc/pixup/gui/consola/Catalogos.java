@@ -1,9 +1,8 @@
-package org.gerdoc.pixup.gui.consola;
+package org.albertoangelesdoc.pixup.gui.consola;
 
-import org.gerdoc.pixup.gui.LecturaAccion;
-import org.gerdoc.pixup.inicio.Inicio;
-import org.gerdoc.pixup.model.Catalogo;
-import org.gerdoc.pixup.util.ReadUtil;
+import org.albertoangelesdoc.pixup.gui.LecturaAccion;
+import org.albertoangelesdoc.pixup.model.Catalogo;
+import org.albertoangelesdoc.pixup.util.ReadUtil;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -198,6 +197,8 @@ public abstract class Catalogos<T extends Catalogo> extends LecturaAccion
         System.out.println("6.-Leer de archivo");
         System.out.println("7.-Salir");
     }
+
+    protected abstract String getCatalogoName();
 
     @Override
     public int valorMinMenu( )

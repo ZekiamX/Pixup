@@ -1,7 +1,7 @@
-package org.gerdoc.pixup.gui.consola;
+package org.albertoangelesdoc.pixup.gui.consola;
 
-import org.gerdoc.pixup.model.Estado;
-import org.gerdoc.pixup.util.ReadUtil;
+import org.albertoangelesdoc.pixup.model.Estado;
+import org.albertoangelesdoc.pixup.util.ReadUtil;
 
 import java.io.File;
 
@@ -49,6 +49,11 @@ public class EstadoCatalogo extends Catalogos<Estado>
     public File getFile()
     {
         return new File( "./Estado.object");
+    }
+
+    @Override
+    protected String getCatalogoName() {
+        return "";
     }
 
 }
